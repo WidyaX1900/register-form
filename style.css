@@ -86,3 +86,25 @@ body {
   margin-right: 6px;
   border: 1px solid rgba(246, 246, 246, 0.402);
 }
+
+.register-box .register-form .form-button {
+  margin-top: 75px;
+}
+
+.register-box .register-form .form-button button {
+  display: block;
+  width: 100%;
+  height: 45px;
+  border-radius: 150px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  background-color: rgb(217, 217, 217);
+  box-shadow: 0 20px 20px rgba(4, 15, 72, 0.219);
+  transition: background-color 0.3s;
+}
+
+.register-box .register-form .form-button button:hover {
+  background-color: rgb(96, 150, 232);
+  color: rgb(237, 237, 237);
+}
