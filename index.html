@@ -3,10 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register Form</title>
+    <title>Complete Feature Register Form</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.joshwcomeau.com/gradient-generator/?colors=182199|40a7df&angle=0&colorMode=hcl&precision=3&easingCurve=0.25|0.75|0.75|0.25"
+    />
   </head>
   <body>
+    <div class="register-box">
+      <h2>Create an Account</h2>
+      <div class="register-form">
+        <div class="form-element">
+          <label for="email">E-mail</label>
+          <input type="text" id="email" />
+        </div>
+        <div class="form-element">
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+          <div class="password-validations">
+            <div class="validation">
+              <div class="checked"></div>
+              <label for="length">Must be at least 6 characters</label>
+            </div>
+            <div class="validation">
+              <div class="checked"></div>
+              <label for="character"
+                >Must contain uppercase, lowercase, number <br />
+                and symbols</label
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,5 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(rgb(72, 127, 236) 0%, rgb(26, 42, 100) 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.register-box {
+  width: 40%;
+  height: 500px;
+  background-color: rgba(247, 247, 247, 0.132);
+  border: 1px solid rgba(246, 246, 246, 0.402);
+  border-radius: 8px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.219);
+  color: rgb(245, 245, 245);
+  padding: 8px 30px;
+  margin-top: 40px;
+}
+
+.register-box h2 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.register-box .register-form {
+  margin-top: 20px;
+}
+
+.register-box .register-form .form-element {
+  margin-bottom: 30px;
+}
+
+.register-box .register-form .form-element label {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.register-box .register-form .form-element input {
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid rgba(246, 246, 246, 0.402);
+  background-color: rgba(247, 247, 247, 0.18);
+  padding: 0 20px;
+  font-size: 1.1rem;
+  color: rgb(232, 232, 232);
+}
+
+.register-box .register-form .form-element .password-validations {
+  margin-top: 15px;
+}
+
+.register-box .register-form .form-element .password-validations label {
+  font-size: 1rem;
+  display: inline;
+  margin-bottom: 0;
+}
+
+.register-box .register-form .form-element .password-validations .validation {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.register-box
+  .register-form
+  .form-element
+  .password-validations
+  .validation
+  .checked {
+  width: 20px;
+  height: 20px;
+  background: rgba(247, 247, 247, 0.18);
+  margin-right: 6px;
+  border: 1px solid rgba(246, 246, 246, 0.402);
 }
