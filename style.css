@@ -41,6 +41,18 @@ body {
   margin-bottom: 30px;
 }
 
+.register-box .register-form .form-element:nth-child(2) {
+  position: relative;
+}
+
+.register-box .register-form .form-element:nth-child(2) i {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 46px;
+  right: 20px;
+  cursor: pointer;
+}
+
 .register-box .register-form .form-element label {
   font-size: 1.1rem;
   display: block;
@@ -86,6 +98,18 @@ body {
   margin-right: 6px;
   border: 1px solid rgba(246, 246, 246, 0.402);
   text-align: center;
+  transition: 0.3s;
+}
+
+.register-box
+  .register-form
+  .form-element
+  .password-validations
+  .validation
+  .checked
+  i {
+  position: static;
+  font-size: 1rem;
 }
 
 .register-box .register-form .form-button {
@@ -118,4 +142,9 @@ body {
   .checked.correct {
   background-color: rgb(22, 132, 22);
   border: none;
+}
+
+.register-box .register-form .form-button button.disabled {
+  opacity: 0.5;
+  pointer-events: none;
 }
